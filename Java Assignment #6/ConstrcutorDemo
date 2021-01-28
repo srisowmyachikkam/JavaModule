@@ -1,0 +1,20 @@
+package oops_module;
+
+class ConstDemo
+{
+    public ConstDemo(int num1){
+       this(1.2);
+    }
+     ConstDemo(double num2){
+        System.out.println(num2);
+    }
+}
+
+public class ConstructorsDemo {
+
+	public static void main(String[] args) {
+		
+		ConstDemo object = new ConstDemo(100);
+	}
+
+}
